@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "chromadb": "^1.8.1",
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run electron\" \"npm run express\"",
+    "electron": "cd electron && npx electron .",
+    "express": "cd express && node server.mjs"
+  }
+}
