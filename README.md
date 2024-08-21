@@ -8,4 +8,7 @@ Install ollama
 run in terminal
 ollama run llama3.1
 
+To install all dependencies
+npm install 
+
 then in root directory - npm run start (will start express and electron apps with concurrently)
